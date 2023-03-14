@@ -1,0 +1,54 @@
+:root {
+    --strong-cyan: hsl(171, 66%, 44%);
+    --light-blue: hsl(233, 100%, 69%);
+    --dark-grayish-blue: hsl(210, 10%, 33%);
+    --grayish-blue: hsl(201, 11%, 66%);
+}
+
+@media (min-width: 900px) {
+    .hero-section {
+        background: url(/images/bg-header-desktop.png) no-repeat;
+    }
+
+    .hero-section h1 {
+        font-size: 2.8125rem;
+    }
+
+    .hero-section p {
+        width: 700px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .buttons {
+        width: 450px;
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+
+    .keep-track-section p {
+        width: 700px;
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .keep-track-div {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+
+    .keep-track-left {
+        width: 50%;
+    }
+
+    .keep-track-right {
+        width: 50%;
+    }
+}

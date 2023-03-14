@@ -59,6 +59,14 @@ main {
     margin-bottom: 45px;
 }
 
+.buttons {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .hero-section a {
     text-decoration: none;
     display: flex;
@@ -236,6 +244,10 @@ footer ul {
 
 footer ul li {
     list-style: none;
+}
+
+footer ul li a{
+    text-decoration: none;
 }
 
 .social-media {

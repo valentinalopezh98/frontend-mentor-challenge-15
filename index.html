@@ -17,6 +17,8 @@
   <!-- Styles -->
 
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="active-states.css">
+  <link rel="stylesheet" href="mediaqueries.css">
 
 </head>
 <body>
@@ -31,9 +33,12 @@
       <p> Clipboard allows you to track and organize everything you 
         copy. Instantly access your clipboard on all your devices.</p>
 
-      <a href="#" class="download-ios">Download for iOS</a>
+      <div class="buttons">
+        <a href="#" class="download-ios">Download for iOS</a>
 
-      <a href="#" class="download-mac">Download for Mac</a>
+        <a href="#" class="download-mac">Download for Mac</a>
+      </div>
+
 
     </section>
 
@@ -45,19 +50,28 @@
         meaning you can access your snippets immediately on all your 
         devices. Our Mac and iOS apps will help you organize everything.</p>
 
-      <img src="./images/image-computer.png" alt="computer">
+      <div class="keep-track-div">
+        <div class="keep-track-left">
+          <img src="./images/image-computer.png" alt="computer">
+        </div>
+       
+        <div class="keep-track-right">
+          <h3>Quick Search</h3>
 
-      <h3>Quick Search</h3>
+          <p>Easily search your snippets by content, category, web address, application, and more.</p>
+        
+          <h3>iCloud Sync</h3>
 
-      <p>Easily search your snippets by content, category, web address, application, and more.</p>
-    
-      <h3>iCloud Sync</h3>
+          <p> Instantly saves and syncs snippets across all your devices.</p>
 
-      <p> Instantly saves and syncs snippets across all your devices.</p>
+          <h3>Complete History</h3>
 
-      <h3>Complete History</h3>
+          <p>Retrieve any snippets from the first moment you started using the app.</p>
+        </div>
 
-      <p>Retrieve any snippets from the first moment you started using the app.</p>
+        
+      </div>
+        
     </section>
 
     <section class="access-section">
@@ -126,19 +140,17 @@
     <img src="/images/logo.svg" alt="clipboard logo">
 
     <ul>
-      <li>FAQs</li>
-      <li>Contact Us</li>
-      <li>Privacy Policy</li>
-      <li>Press Kit</li>
-      <li>Install Guide</li>
+      <li><a href="#">FAQs</a></li>
+      <li><a href="#">Contact Us</a></li>
+      <li><a href="#">Privacy Policy</a></li>
+      <li><a href="#">Press Kit</a></li>
+      <li><a href="#">Install Guide</a></li>
     </ul>
 
     <div class="social-media">
-      <img src="/images/icon-facebook.svg" alt="Facebook profile">
-
-      <img src="/images/icon-twitter.svg" alt="Twitter profile">
-
-      <img src="/images/icon-instagram.svg" alt="Instagram profile">
+      <a href="#"><img src="/images/icon-facebook.svg" alt="Facebook profile"></a>
+      <a href="#"><img src="/images/icon-twitter.svg" alt="Twitter profile"></a>
+      <a href="#"><img src="/images/icon-instagram.svg" alt="Instagram profile"></a>
     </div>
   </footer>
 

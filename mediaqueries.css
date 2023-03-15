@@ -8,6 +8,7 @@
 @media (min-width: 900px) {
     .hero-section {
         background: url(/images/bg-header-desktop.png) no-repeat;
+        background-size: 100%;
     }
 
     .hero-section h1 {
@@ -30,7 +31,9 @@
         font-size: 35px;
     }
 
-    .keep-track-section p {
+    .keep-track-section p,
+    .access-section p,
+    .supercharge-section p {
         width: 700px;
         font-size: 18px;
         line-height: 30px;
@@ -51,4 +54,32 @@
     .keep-track-right {
         width: 50%;
     }
+    
+    .access-section img {   
+        width: 900px;
+    }
+
+    .supercharge-div {
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .tool {
+        width: 350px;
+    }
+
+    .tool p {
+        font-size: 1rem;
+        width: 100%;
+    }
+
+    .logo-section {
+        flex-direction: row;
+        gap: 80px;
+    }
+
+    .logo-section img {
+        width: 150px;
+    }
+
 }

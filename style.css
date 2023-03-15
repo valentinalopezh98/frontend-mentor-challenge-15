@@ -166,6 +166,22 @@ h3 {
     margin-bottom: 120px;
 }
 
+.supercharge-div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tool {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .supercharge-section p {
     color: var(--grayish-blue);
     font-size: 1rem;

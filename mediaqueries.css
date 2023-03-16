@@ -5,7 +5,7 @@
     --grayish-blue: hsl(201, 11%, 66%);
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1400px) {
     .hero-section {
         background: url(/images/bg-header-desktop.png) no-repeat;
         background-size: 100%;
@@ -44,17 +44,43 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        position: relative;
+        margin-top: 80px;
+        gap: 100px;
     }
 
     .keep-track-left {
         width: 50%;
+        position: relative;
+    
+    }
+
+    .keep-track-left img {
+        position: absolute;
+        width: 750px;
+        left: -100px;
+        bottom: -300px;
     }
 
     .keep-track-right {
         width: 50%;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        padding-left: 50px;
     }
     
+    .keep-track-right p {
+        text-align: left;
+        width: 60%;
+        font-size: 1rem;
+        margin-bottom: 50px;
+    }
+
+    .keep-track-right h3 {
+        text-align: left;
+        width: 60%;
+    }
+
     .access-section img {   
         width: 900px;
     }
@@ -82,4 +108,39 @@
         width: 150px;
     }
 
+    .clipboard-section p {
+        width: 700px;
+    }
+
+    footer {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    footer ul {
+        width: 50%;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .col-1,
+    .col-2,
+    .col-3 {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .col-3 {
+        height: 66px;
+        justify-content: flex-start;
+    }
+
+
+    .social-media {
+        width: 20%;
+        gap: 10px;
+    }
 }

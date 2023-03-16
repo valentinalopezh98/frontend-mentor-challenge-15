@@ -262,12 +262,21 @@ footer ul {
     gap: 30px;
 }
 
+.list-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
 footer ul li {
     list-style: none;
 }
 
 footer ul li a{
     text-decoration: none;
+    color: var(--dark-grayish-blue);
 }
 
 .col-1,

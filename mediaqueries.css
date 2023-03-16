@@ -117,16 +117,15 @@
         justify-content: space-around;
     }
 
-    footer ul {
-        width: 50%;
+    .list-div {
         flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
+        gap: 60px;
     }
 
     .col-1,
     .col-2,
     .col-3 {
+        width: 200px;
         flex-direction: column;
         align-items: center;
         justify-content: center;
